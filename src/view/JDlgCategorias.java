@@ -7,7 +7,7 @@ package view;
 import tools.Util;
 
 public class JDlgCategorias extends javax.swing.JDialog {
-    
+
     public JDlgCategorias(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
@@ -16,7 +16,7 @@ public class JDlgCategorias extends javax.swing.JDialog {
         Util.habilitar(false, jTxtCodigo, jTxtDescricao, jTxtHierarquia, jTxtImagem, jTxtNome, jTxtStatus,
                 jBtnConfirmar, jBtnCancelar);
     }
-    
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -209,11 +209,11 @@ public class JDlgCategorias extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelarActionPerformed
 
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
-
+        Util.mensagem("nao implementado");
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
-    
+
     public static void main(String args[]) {
-        
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 JDlgCategorias dialog = new JDlgCategorias(new javax.swing.JFrame(), true);

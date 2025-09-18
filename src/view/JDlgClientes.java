@@ -7,7 +7,7 @@ package view;
 import tools.Util;
 
 public class JDlgClientes extends javax.swing.JDialog {
-    
+
     public JDlgClientes(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
@@ -17,7 +17,7 @@ public class JDlgClientes extends javax.swing.JDialog {
                 jTxtEmail, jTxtCelular, jTxtEndereco, jTxtCep, jTxtCidade, jTxtBairro, jTxtNumero, jCboNivel, jChAtivo,
                 jBtnConfirmar, jBtnCancelar);
     }
-    
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -328,11 +328,11 @@ public class JDlgClientes extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelarActionPerformed
 
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
-
+        Util.mensagem("nao implementado");
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
-    
+
     public static void main(String args[]) {
-        
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 JDlgClientes dialog = new JDlgClientes(new javax.swing.JFrame(), true);
